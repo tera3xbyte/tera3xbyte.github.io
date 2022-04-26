@@ -1,0 +1,19 @@
+{
+  "name": "portofolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.8.1"
+  }
+}

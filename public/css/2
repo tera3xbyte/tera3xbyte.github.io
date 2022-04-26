@@ -1,0 +1,81 @@
+:root {
+	--fg: #ebdbb2;
+	--fg0: #fbf1c7 ;
+	--bg: #282828;
+	--bg1: #3c3836;
+	--red: #cc241d;
+	--green: #98971a;
+	--yellow: #d79921;
+	--blue: #458588;
+	--purple: #b16286;
+
+	
+	--font: 'Fira Code', monospace;
+}
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	background-color: var(--bg);
+	font-family: sans-serif;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	background-color: var(--bg);
+	color: var(--fg);
+	opacity: 0.8;
+	padding: 20px 10px;
+	height: 25px;
+	justify-content: space-between;
+	backdrop-filter: blur(10px);
+	font-family: var(--font);
+	font-size: 13px;
+}
+
+nav > ul {
+	list-style: none;
+	display: flex;	
+}
+
+nav > ul > li {
+	padding:0px 16px;
+	
+}
+
+nav > ul:nth-child(3) {
+	border: 3px solid var(--fg0);
+	border-radius: 12px;
+
+}
+
+
+
+.toggle-menu {
+	display: flex;
+	flex-direction: column;
+}
+
+.toggle-menu span{
+	background-color: var(--fg);
+	padding: 3px 15px;
+}
+
+
+
+/* tablet */ 
+
+@media screen and (max-width: 768px) {
+	nav > ul {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 576px) {
+	nav > ul {
+		display: none;
+
+	}
+}

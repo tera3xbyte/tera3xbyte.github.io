@@ -1,0 +1,145 @@
+:root {
+	--fg: #ebdbb2;
+	--fg0: #fbf1c7 ;
+	--bg: #282828;
+	--bg1: #3c3836;
+	--red: #cc241d;
+	--green: #98971a;
+	--yellow: #d79921;
+	--blue: #458588;
+	--purple: #b16286;
+
+	
+	--font: 'Fira Code', monospace;
+	--shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	background-color: var(--bg1);
+	font-family: sans-serif;
+}
+
+
+li {
+	list-style: none;
+}
+
+a {
+	color: var(--fg);
+	text-decoration: none;
+	font-family: var(--font);
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	background-color: var(--bg);
+	color: var(--fg);
+	opacity: 0.8;
+	padding: 20px 10px;
+	height: 25px;
+	justify-content: space-between;
+	backdrop-filter: blur(10px);
+	font-family: var(--font);
+	font-size: 13px;
+	padding: 25px 50px;
+	position: fixed;
+	width: 94vw;
+	box-shadow: var(--shadow);
+}
+
+nav > ul {
+	list-style: none;
+	display: flex;	
+	align-items: baseline;
+}
+
+nav > ul > li {
+	padding:10px 16px;
+}
+
+nav > ul > li:last-child {
+	border: 2px solid var(--fg0);
+	border-radius: 5px;
+
+}
+
+.social-medias {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: fixed;
+	bottom: -20px;
+	left: 0;
+}
+
+.social-medias > ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	font-size: 20px;
+}
+
+.social-medias > ul > li {
+	padding:10px;
+	
+}
+
+.email {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	bottom: -26px;
+	right: 30px;
+}
+
+
+.email > li {
+	display: block;
+	padding: 10px 0px;
+	writing-mode: vertical-rl;
+	flex-flow: column nowrap;
+}
+
+.beam {
+	display: flex;
+	margin: auto;
+	height: 90px;
+	width: 1px;
+	background-color: var(--fg0);
+}
+
+.toggle-menu {
+	display: flex;
+	flex-direction: column;
+}
+
+.toggle-menu span{
+	background-color: var(--fg);
+	padding: 3px 15px;
+}
+
+
+
+
+
+
+/* tablet */ 
+
+@media screen and (max-width: 768px) {
+	nav > ul {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 576px) {
+	nav > ul {
+		display: none;
+
+	}
+}
