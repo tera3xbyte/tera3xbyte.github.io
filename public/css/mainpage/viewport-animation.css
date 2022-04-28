@@ -1,0 +1,28 @@
+/* desktops */
+ 
+@media screen and (min-width: 769px) {
+	.menu-toggle {
+		display: none;
+	}
+}
+
+
+/* mobile devices */ 
+
+@media screen and (max-width: 768px) {
+	nav > ul {
+		display: none;
+	}
+
+	.email, .social-medias {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 576px) {
+	nav > ul {
+		display: none;
+
+	}
+}

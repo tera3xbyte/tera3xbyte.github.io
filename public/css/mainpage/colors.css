@@ -1,0 +1,17 @@
+:root {
+	--fg: #ebdbb2;
+	--fg0: #fbf1c7 ;
+	--bg: #282828;
+	--bg1: #3c3836;
+	--red: #cc241d;
+	--green: #98971a;
+	--yellow: #d79921;
+	--blue: #458588;
+	--purple: #b16286;
+
+	
+	--font: 'Fira Code', monospace;
+	--shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
