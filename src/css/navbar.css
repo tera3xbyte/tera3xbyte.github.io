@@ -1,40 +1,3 @@
-:root {
-	--fg: #ebdbb2;
-	--fg0: #fbf1c7 ;
-	--bg: #282828;
-	--bg1: #3c3836;
-	--red: #cc241d;
-	--green: #98971a;
-	--yellow: #d79921;
-	--blue: #458588;
-	--purple: #b16286;
-
-	
-	--font: 'Fira Code', monospace;
-	--shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-
-
- body {
-	margin: 0px;
-	padding: 0px;
-	background-color: var(--bg1);
-	font-family: sans-serif;
-	overflow-x: hidden;
-}
-
-
-li {
-	list-style: none;
-}
-
-a {
-	color: var(--fg);
-	text-decoration: none;
-	font-family: var(--font);
-}
-
 nav {
 	display: flex;
 	align-items: center;
@@ -45,13 +8,14 @@ nav {
 	height: 25px;
 	justify-content: space-between;
 	backdrop-filter: blur(10px);
-	font-family: var(--font);
+	font-family: var(--font-mono);
 	font-size: 13px;
 	padding: 25px 50px;
 	position: sticky;
 	top: 1;
-	box-shadow: var(--shadow);
-}
+	/*box-shadow: var(--shadow);
+*/
+	}
 
 nav > ul {
 	list-style: none;
@@ -123,8 +87,6 @@ nav > ul > li:last-child {
 	height: 20px;
 }
 
-
-
 .menu-toggle > input {
 	position: absolute;
 	z-index: 2;
@@ -136,7 +98,6 @@ nav > ul > li:last-child {
 	top:20px;
 }
  
-
 
 /* sebenernya bisa pakai javascript */
 
@@ -158,47 +119,3 @@ nav > ul > li:last-child {
 }
 
 
-
-
-/* desktops */
- 
-@media screen and (min-width: 769px) {
-	.menu-toggle {
-		display: none;
-	}
-}
-
-
-/* mobile devices */ 
-
-@media screen and (max-width: 768px) {
-	nav > ul {
-		flex-direction: column;
-		position: absolute;
-		top: 0;
-		right: 0;
-		justify-content: space-evenly;
-		background-color: var(--bg);
-		height: 100vh;
-		width: 60%;
-		align-items: center;
-		z-index: -1;
-		transform: translateX(100%);
-	}
-
-	nav ul.slide {
-		transform: translateX(0);
-	}
-
-	.email, .social-medias {
-		display: none;
-	}
-
-}
-/*
-@media screen and (max-width: 576px) {
-	nav > ul {
-		display: none;
-
-	}
-}*/

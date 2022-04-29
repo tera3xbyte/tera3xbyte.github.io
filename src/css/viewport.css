@@ -1,0 +1,35 @@
+/* desktops */
+ 
+@media screen and (min-width: 769px) {
+	.menu-toggle {
+		display: none;
+	}
+}
+/* mobile devices */ 
+@media screen and (max-width: 768px) {
+	nav > ul {
+		flex-direction: column;
+		position: absolute;
+		top: 0;
+		right: 0;
+		justify-content: space-evenly;
+		background-color: var(--bg);
+		height: 100vh;
+		width: 60%;
+		z-index: -1;
+		align-items: center;
+		transform: translateX(100%);
+		overflow: hidden;
+		opacity: 0;
+		transition: linear;
+		transition-duration: 0.2s;
+	}
+	nav ul.slide {
+		opacity: 1;
+		transform: translateX(0);
+	}
+	.email, .social-medias {
+		display: none;
+	}
+
+}

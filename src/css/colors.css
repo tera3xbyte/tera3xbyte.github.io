@@ -10,7 +10,8 @@
 	--purple: #b16286;
 
 	
-	--font: 'Fira Code', monospace;
+	--font-mono: 'Fira Mono', monospace;
+	--font-bold: 'Poppins', sans-serif;
 	--shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 

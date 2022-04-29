@@ -1,0 +1,18 @@
+main {
+	margin: 80px;
+}
+
+main > span {
+	font-family: var(--font-mono); 
+	color: var(--fg);
+}
+
+main > h1 {
+	color: var(--yellow);
+}
+
+#software {
+	display: inline-block;
+
+	
+}
