@@ -16,16 +16,14 @@
 
 	<link rel="icon" href="/favicon.ico">
 	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Poppins:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" href="./src/css/mainpage.css">
-	<link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
-
+<link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
 	<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
 
@@ -34,13 +32,13 @@
 <body>
 	<nav>
 		<div>
-			<h2>gw ngga punya logo</h2>
+			<div>gw ngga punya logo</div>
 		</div>
 		<ul>
-			<li>01. Tentang Saya</li>
-			<li>02. Keahlian</li>
-			<li>03. Karya</li>
-			<li>Kontak</li>
+			<li><a href="#tentang-saya">01. Tentang Saya</a></li>
+			<li><a href="#keahlian">02. Keahlian</a></li>
+			<li><a href="#karya">03. karya</a></li>
+			<li><a href="#kontak">Kontak</a></li>
 		</ul>
 		
 		<div class="menu-toggle">
@@ -49,7 +47,7 @@
 			<span></span>
 			<input type="checkbox" name="" id="">
 		</div>
-		<script src="./public/js/nav-toggle.js"></script>
+		<script src="./src/js/nav-toggle.js"></script>
 	</nav>
 
 	<div class="social-medias">
@@ -69,20 +67,31 @@
 	</ul>
 
 	<main>
-		<span>let saya = { </span>
+		<span>Hai! Saya</span>
 		<h1>Nathan Thirza.</h1>
-		<h1>Saya <div id="software">ph</div> Software untuk Bersenang-Senang.</h1>
-		<span>}</span>
-
+		<h1>Saya Gemar memprogram <div id="platforms"></div></h1>
+		<script src="./src/js/typewrite-platforms.js"></script>
+		<span id="comment">/*
+			<div>
+				Saat ini Saya adalah seorang Siswa SMA. 
+				Selain Pemrograman Saya suka dengan Desain grafis (tidak terlalu mahir). 
+				Saat ini Saya fokus membangun Website sekolah SMA saya 
+				<a href="#">@sma11denpasar</a>.
+			</div>
+		*/</span>
 	</main>
-
 	<section>
+		<span id="tentang-saya">
+			<h2>01. about</h2>
+			<div class="x-beam"></div>
+		</span>
 
-
+		<div class="about-me-desc">
+			<div>Hello</div>
+			<img src="./assets/images/Myself.jpg" alt="Myself">
+		</div>
+	
 	</section>
-
-
-
 </body>
 
 </html>

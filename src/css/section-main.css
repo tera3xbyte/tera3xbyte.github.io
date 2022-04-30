@@ -1,5 +1,6 @@
-main {
+section, main {
 	margin: 80px;
+	height: 100vh;
 }
 
 main > span {
@@ -11,8 +12,49 @@ main > h1 {
 	color: var(--yellow);
 }
 
-#software {
-	display: inline-block;
+.about-me-desc {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	padding: 10px;
+	gap:20px;
+}
 
+
+.about-me-desc > div {
+	flex-grow: 1;
+	word-wrap: break-word;
+	width:500px ;
+	padding: 0px;
+	font: var(--font-thick);
+	color: var(--fg);
+
+}
+
+.about-me-desc > img {
+	flex-grow: 1;
+	border-radius: 9px;
+	width: 5vh;
+}
+#platforms {
+	display: inline-block;
 	
 }
+
+#comment > div {
+	word-wrap: break-word;
+	width: 50%;
+	
+}
+
+#tentang-saya {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+#tentang-saya > * {
+	margin: 10px;
+}
+
