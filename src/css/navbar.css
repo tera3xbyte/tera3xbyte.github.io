@@ -3,7 +3,7 @@ nav {
 	align-items: center;
 	background-color: var(--bg);
 	color: var(--fg);
-	opacity: 0.8;
+	opacity: 1;
 	padding: 20px 10px;
 	height: 25px;
 	justify-content: space-between;

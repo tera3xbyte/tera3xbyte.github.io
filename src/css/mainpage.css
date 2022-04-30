@@ -2,7 +2,8 @@
 @import './navbar.css'; 
 @import './viewport.css';
 @import './section-main.css';
-html, body {
+
+body {
 	margin: 0px;
 	padding: 0px;
 	background-color: var(--bg);
@@ -23,3 +24,9 @@ a {
 	text-decoration: none;
 	font-family: var(--font-mono);
 }
+
+p {
+	font-family: var(--font-mono);
+	color: var(--fg);
+}
+
