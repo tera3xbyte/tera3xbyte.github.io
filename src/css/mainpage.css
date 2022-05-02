@@ -4,9 +4,7 @@
 @import './navbar.css';
 @import './decoration.css';
 @import './section-main.css';
-<<<<<<< HEAD
 @import './viewport.css';
-=======
 
 body {
 	margin: 0px;
@@ -35,4 +33,3 @@ p {
 	color: var(--fg);
 }
 
->>>>>>> noFramework
