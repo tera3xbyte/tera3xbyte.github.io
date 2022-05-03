@@ -42,13 +42,10 @@
 		align-items: center;
 		transform: translateX(100%);
 		overflow: hidden;
-		opacity: 0;
 		transition: linear;
-		backdrop-filter: blur(12px);
-		transition-duration: 0.2s;
+		transition-duration: 100ms;
 	}
 	nav ul.slide {
-		opacity: 0.9;
 		transform: translateX(0);
 	}
 	.email, .social-medias {

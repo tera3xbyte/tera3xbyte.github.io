@@ -45,9 +45,10 @@
 	background-color: var(--fg0);
 }
 
+
 .x-beam {
 	height: 1px;
-	width: 100px;
+	width: 50vw;
 	background-color: var(--fg0);
 	
 }

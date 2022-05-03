@@ -16,15 +16,21 @@
 
 	<link rel="icon" href="/favicon.ico">
 	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+	<!-- remote links & scripts -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Poppins:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
-	<link rel="stylesheet" href="./src/css/mainpage.css">
-<link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
-	<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<!-- local links & scripts --> 
+<link rel="stylesheet" href="./src/css/mainpage.css">
+
+
+
 
 
 </head>
@@ -68,30 +74,50 @@
 
 	<main>
 		<span>Hai! Saya</span>
-		<h1>Nathan Thirza.</h1>
-		<h1>Saya Gemar memprogram <div id="platforms"></div></h1>
+		<h1 style="color: var(--yellow-l);">Nathan Thirza.</h1>
+		<h1 style="color: var(--yellow);">Saya Gemar memprogram <div id="platforms"></div></h1>
 		<script src="./src/js/typewrite-platforms.js"></script>
-		<span id="comment">/*
+		<span id="comment">
+			/*
 			<div>
 				Saat ini Saya adalah seorang Siswa SMA. 
 				Selain Pemrograman Saya suka dengan Desain grafis (tidak terlalu mahir). 
-				Saat ini Saya fokus membangun Website sekolah SMA saya 
-				<a href="#">@sma11denpasar</a>.
+				Saat ini Saya fokus membangun Website sekolah saya 
+				<a href="#">@sma11denpasar</a> & <a href="#">@smpn13denpasar</a>.
 			</div>
-		*/</span>
+			*/
+		</span>
 	</main>
+
 	<section>
 		<span id="tentang-saya">
-			<h2>01. about</h2>
+			<h2> <pre>01.</pre> Tentang Saya</h2>
 			<div class="x-beam"></div>
 		</span>
-
 		<div class="about-me-desc">
-			<div>Hello</div>
-			<img src="./assets/images/Myself.jpg" alt="Myself">
+			<div id="comment">
+					<p>
+					Salam Kenaaal! saya Nathan Thirza, Kalian bisa Memanggil saya 'Nath' ataupun 'Nathan'
+					Saya Saya Tertarik dengan Teknologi. saya juga suka Membuat/Mendesain Program, 
+					entah Itu situs Web, CLI, Desktop, Mobile, Game, dan Lain lain. Saya Mulai Tertarik Memprogram 
+					sejak Kelas 8 SMP saat masa pembelajaran jarak jauh. Masa itu saya memiliki waktu luang 
+					yang sangat panjang sehingga saya habiskan untuk belajar hal baru yaitu pemrograman.   
+				</p> 
+				<p>
+					Saya Seorang Siswa SMA, Saya bersekolah di <a href="#">SMA Negeri 11 Denpasar</a>
+					cita-cita Saya adalah menjadi Software Engineer, Biologist, dan sedikit Kedokteran.
+				</p>
+				<p></p>
+
+			</div>
+			<div class="myself-wrapper"> 
+				<img src="./assets/images/Myself.jpg" alt="Myself">
+			</div>
 		</div>
 	
 	</section>
+
+
 </body>
 
 </html>

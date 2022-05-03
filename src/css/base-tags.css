@@ -5,7 +5,7 @@ html {
 body {
 	margin: 0px;
 	padding: 0px;
-	background-color: var(--bg1);
+	background-color: var(--bg);
 	font-family: sans-serif;
 	overflow-x: hidden;
 }
@@ -29,6 +29,13 @@ li {
 a {
 	color: var(--fg);
 	text-decoration: none;
-	font-family: var(--font-mono);
+		font-family: var(--font-mono);
 }
+
+pre {
+	display: inline-block;
+	font-family: var(--font-mono);
+
+}
+
 
