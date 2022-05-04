@@ -1,41 +1,38 @@
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-	margin: 0px;
-	padding: 0px;
-	background-color: var(--bg);
-	font-family: sans-serif;
-	overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
+  background-color: var(--bg);
+  font-family: sans-serif;
+  overflow-x: hidden;
 }
 h1 {
-	font: var(--font-bold);
-	font-size: 40px;
-	line-height: 3rem;
-	margin: 0px;
+  font: var(--font-bold);
+  font-size: 40px;
+  line-height: 3rem;
+  margin: 0px;
 }
 h2 {
-	font: var(--font-bold);
-	font-size: 28px;
-	line-height: 3rem;
-	margin: 0px;
-	color: var(--yellow)
+  font: var(--font-bold);
+  font-size: 28px;
+  line-height: 3rem;
+  margin: 0px;
+  color: var(--yellow);
 }
 
 li {
-	list-style: none;
+  list-style: none;
 }
 a {
-	color: var(--fg);
-	text-decoration: none;
-		font-family: var(--font-mono);
+  color: var(--fg);
+  text-decoration: none;
+  font-family: var(--font-mono);
 }
 
 pre {
-	display: inline-block;
-	font-family: var(--font-mono);
-
+  display: inline-block;
+  font-family: var(--font-mono);
 }
-
-

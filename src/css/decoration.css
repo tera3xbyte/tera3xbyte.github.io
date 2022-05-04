@@ -1,54 +1,50 @@
 .social-medias {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	position: fixed;
-	bottom: -20px;
-	left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  bottom: -20px;
+  left: 0;
 }
 
 .social-medias > ul {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
-	font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 20px;
 }
 
 .social-medias > ul > li {
-	padding:10px;
-	
+  padding: 10px;
 }
 
 .email {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-	position: fixed;
-	bottom: -26px;
-	right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: -26px;
+  right: 30px;
 }
 
-
 .email > li {
-	display: block;
-	padding: 10px 0px;
-	writing-mode: vertical-rl;
-	flex-flow: column nowrap;
+  display: block;
+  padding: 10px 0px;
+  writing-mode: vertical-rl;
+  flex-flow: column nowrap;
 }
 
 .beam {
-	display: flex;
-	margin: auto;
-	height: 90px;
-	width: 1px;
-	background-color: var(--fg0);
+  display: flex;
+  margin: auto;
+  height: 90px;
+  width: 1px;
+  background-color: var(--fg0);
 }
 
-
 .x-beam {
-	height: 1px;
-	width: 50vw;
-	background-color: var(--fg0);
-	
+  height: 1px;
+  width: 50vw;
+  background-color: var(--fg0);
 }

@@ -1,8 +1,6 @@
-@import './colors-font.css';
-@import './base-tags.css';
-@import './navbar.css';
-@import './decoration.css';
-@import './section-main.css';
-@import './viewport.css';
-
-
+@import "./colors-font.css";
+@import "./base-tags.css";
+@import "./navbar.css";
+@import "./decoration.css";
+@import "./section-main.css";
+@import "./viewport.css";

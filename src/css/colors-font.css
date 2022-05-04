@@ -1,46 +1,46 @@
 :root {
-	--fg: #e6e1cf;
-	--fg0: #fbf1c7;
+  --fg: #e6e1cf;
+  --fg0: #fbf1c7;
 
-	--bg: #0f1419;
-	
-	--black: #000;
-	--black-l: #323232;
+  --bg: #0f1419;
 
-	--red: #ff3333;
-	--red-l: #ff6565;
+  --black: #000;
+  --black-l: #323232;
 
-	--green: #b8cc52;
-	--green-l: #eafe84;
+  --red: #ff3333;
+  --red-l: #ff6565;
 
-	--yellow: #e7c547;
-	--yellow-l: #fff779;
+  --green: #b8cc52;
+  --green-l: #eafe84;
 
-	--blue: #36a3d9;
-	--blue-l: #68d5ff;
+  --yellow: #e7c547;
+  --yellow-l: #fff779;
 
-	--magenta: #f07178;
-	--magenta-l: #ffa3aa;
+  --blue: #36a3d9;
+  --blue-l: #68d5ff;
 
-	--cyan: #95e6cb;
-	--cyan-l: #c7fffd;
+  --magenta: #f07178;
+  --magenta-l: #ffa3aa;
 
-	--gray: #928374;
-	
-	--font-mono: 'Fira Mono', monospace;
-	--font-bold: Bold 1.2em 'Poppins', sans-serif;
-	--font-thick: normal 1em "Poppins", sans-serif;
-	--shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  --cyan: #95e6cb;
+  --cyan-l: #c7fffd;
+
+  --gray: #928374;
+
+  --font-mono: "Fira Mono", monospace;
+  --font-bold: Bold 1.2em "Poppins", sans-serif;
+  --font-thick: normal 1em "Poppins", sans-serif;
+  --shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .font-mono {
-	font-family: var(--font-mono);
-	color: var(--fg);
+  font-family: var(--font-mono);
+  color: var(--fg);
 }
 .font-norm {
-	font-family: var(--font-bold);
-	color: var(--fg);
+  font-family: var(--font-bold);
+  color: var(--fg);
 }
 #comment {
-	color: var(--gray)
+  color: var(--gray);
 }
